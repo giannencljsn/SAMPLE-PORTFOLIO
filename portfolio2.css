@@ -1,0 +1,201 @@
+/* */
+
+.pic2{
+    background-color: #FBE3D7;
+    height: 357px;
+    width: 237px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.pic2 > img{
+    display: block;
+    width: 235px;
+    height: 310px;
+  
+}
+
+.pic2:hover {
+
+height: 320px;
+width: 220px;
+transition-duration: 0.5s;
+}
+
+
+.pic3 { 
+    background-color: #FBE2D7;
+    height: 300px;
+    width: 280px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.pic3 > img, .pic4 > img,
+.pic5 > img, .pic6 > img,
+.pic7 > img, .pic8 > img,
+.pic9 > img, .pic10 > img,
+.pic11 > img, .pic12 > img,
+.pic13 > img, .pic14 > img { 
+    display:block;
+}
+
+.pic3:hover {
+    height: 259px;
+    width: 240px; 
+    transition-duration: 0.5s; 
+}
+
+
+.pic4{
+    background-color: #FDC2C1;
+    height: 253px;
+    width: 238px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.pic4:hover{
+    height: 212px;
+    width: 198px;
+    transition-duration: 0.5s;
+}
+.pic5{
+    background-color: #FBE2D6;
+    height: 255px;
+    width: 239px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.pic5:hover{
+    height: 213px;
+    width: 196px;
+    transition-duration: 0.5s;
+}
+.pic6{
+    background-color: #FD8375;
+    height: 300px;
+    width: 238px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.pic6:hover{
+    height: 261px;
+    width: 196px;
+    transition-duration: 0.5s;
+   
+}
+
+.pic7{
+    background-color: #CAE2D9;
+    height: 252px;
+    width: 238px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.pic7:hover{
+    height: 213px;
+    width: 198px;
+    transition-duration:0.5s;
+}
+.pic8{
+    background-color: #FBE2D6;
+    height: 252px;
+    width: 236px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.pic8:hover{
+    height: 214px;
+    width: 198px;
+    transition-duration: 0.5s;
+}
+
+.pic9{
+    background-color: #FC8177;
+    height: 252px;
+    width: 237px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.pic9:hover{
+    height: 213px;
+    width: 196px;
+    transition-duration: 0.5s;
+}
+
+
+.pic10{
+    background-color: #FDC2C1;
+    height: 343px;
+    width: 237px;
+    margin: 0px auto;
+    overflow: hidden;
+
+}
+
+.pic10:hover{
+    height: 302px;
+    width: 198px;
+    transition-duration: 0.5s;
+}
+.pic11{
+    background-color: #FBE2D6;
+    height: 253px;
+    width: 234px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.pic11:hover {
+    height: 213px;
+    width: 198px;
+    transition-duration: 0.5s;
+}
+
+.pic12{
+    background-color: #ECD6CD;
+    height: 253px;
+    width: 239px;
+    margin: 180px auto;
+    overflow: hidden;
+}
+
+.pic12:hover{
+    height: 213px;
+    width: 199px;
+    transition-duration: 0.5s;
+}
+
+.pic13{
+    background-color: #FDC2C1;
+    height: 252px;
+    width: 239px;
+    margin: 180px auto;
+    overflow: hidden;
+}
+
+.pic13:hover {
+    height: 213px;
+    width: 197px;
+    transition-duration: 0.5s;
+}
+
+
+.pic14{
+    background-color: #CBE3DB;
+    height: 354px;
+    width: 237px;
+    margin: 110px auto;
+    overflow:hidden;
+}
+
+.pic14:hover{
+    height: 314px;
+    width: 199px;
+    transition-duration: 0.5s;
+}
+

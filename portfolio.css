@@ -1,0 +1,585 @@
+
+.container{
+    display: grid;
+    height: 100vh; /*spans the whole screen */
+    
+    grid-template-columns: 0.62fr 0.9fr 0.8fr 0.9fr;
+    grid-template-rows: 125px 300px 125px  300px 125px 300px 
+    125px 300px 125px  180px 100px 300px ;
+
+
+
+    grid-template-areas: 
+                        "sidebar content1 content2 content3"
+                        "sidebar content1 content2 content3"
+                        "sidebar content4 content2 content5"
+                        "sidebar content4 content6 content5"
+                        "sidebar content7 content6 content8"
+                        "sidebar content7 content6 content8"
+                        "sidebar content9 content10 content11"
+                        "sidebar content9 content10 content11"
+                        "sidebar content12 content10 content13"
+                        "sidebar content12 content14 content13"
+                        "sidebar content12 content14 content13"
+                        "sidebar content12 content14 content13"
+                        "sidebar content12 content14 content13";
+    position: relative;
+    z-index: 1;
+}
+
+#sidebar{
+   grid-area: sidebar;
+}
+
+
+
+
+
+#content1, #content2, #content3, 
+#content4, #content5, #content6,
+#content7, #content8, #content9, 
+#content10, #content11, #content12, 
+#content13, #content14{
+    background: #ffffff;
+    position:relative;
+}
+
+
+
+#content1{
+    grid-area: content1;
+}
+#content2{
+    
+    grid-area: content2;
+}
+#content3{
+    grid-area: content3;
+}
+#content4{
+    grid-area: content4;
+}
+#content5{
+    grid-area: content5;
+}
+#content6{
+    grid-area: content6;
+}
+#content7{
+    grid-area: content7;
+}
+
+#content8{
+    grid-area: content8;
+}
+#content9{  
+    grid-area: content9;
+}
+#content10{
+    grid-area: content10;
+}
+
+#content11{
+    grid-area: content11;
+}
+
+#content12{
+    grid-area: content12;
+}
+
+#content13{
+    grid-area: content13;
+}
+
+#content14{
+    grid-area: content14;
+}
+
+
+
+ #content1, #content4, #content7, #content9, #content12 {
+    z-index: -1;
+}
+
+
+/* Contents Images*/
+.plant {
+    background-color: #FC8374;
+    height: 300px;
+    width: 280px;
+    margin: 50px auto;
+    overflow: hidden;
+
+}
+
+.plant:hover{
+    height: 259px;
+    width: 240px; 
+    transition-duration: 0.5s;  
+    }
+
+.plant img , .pic2 img, .pic3 img, .pic4 img,
+ .pic6 img, .pic8 img,  .pic9 img, .pic10 img, 
+   .pic13 img, .pic14 img{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.pic5 img, .pic8 img, .pic7 img, .pic9 img,
+.pic12 img, .pic10 img, .pic11 img{
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*content and its text*/
+.content1-h1, .content1-p, 
+.content2-h1, .content2-p , 
+.content3-h1, .content3-p ,
+.content4-h1, .content4-p ,
+.content5-h1, .content5-p ,
+.content6-h1, .content6-p ,
+.content7-h1, .content7-p ,
+.content8-h1, .content8-p ,
+.content9-h1, .content9-p ,
+.content10-h1, .content10-p ,
+.content11-h1, .content11-p ,
+.content12-h1, .content12-p ,
+.content13-h1, .content13-p,
+.content14-h1, .content14-p{
+    display: inline-block;
+    transform: rotate(-90deg);
+}
+
+.content1-h1 > h1 {
+    font-size: 28px;
+    width: 150px;
+}
+.content1-p > p{
+    width: 100px;
+}
+#content1-p > span{
+    position: absolute;
+    left: 0%;
+    bottom:50%;
+    right: 87%;
+
+}
+
+#content1 > span{
+   
+    position: absolute;
+    bottom: 15%; 
+    left: 0%;
+    right:89%;
+}
+
+.content2-h1 > h1 {
+    font-size: 28px;
+    width: 150px;
+}
+.content2-p > p {
+    width: 100px;
+}
+
+#content2-p > span { 
+    position: absolute;
+    left: 0%;
+    bottom: 50%;
+    right: 85%;
+
+    
+}
+
+
+#content2 > span {
+    position: absolute;
+    bottom: 32%;
+    right: 70%;
+    
+}
+
+#content3 > span {
+    position: absolute;
+    bottom:26%;
+    right: 75%;
+}
+
+.content3-h1 > h1 {
+    font-size: 28px;
+    width: 150px;
+   
+}
+
+.content3-p > p {
+    width: 100px;
+}
+#content3-p { 
+    position: absolute;
+    bottom: 55%;
+    right: 81%;
+}
+
+#content4 > span {
+    position: absolute;
+    bottom: 37%; 
+    right:74%;
+    
+} 
+
+#content4-p{
+    position: absolute;
+    bottom: 73%;
+    right: 74%;
+
+} 
+
+.content4-p > p {
+    width: 150px;
+}
+.content4-h1 >h1{
+    width: 150px;
+    font-size: 28px;
+}
+
+
+
+#content6 > span {
+    position: absolute;
+    top:32%;
+    right: 72%;
+}
+
+.content6-h1 > h1{
+    width: 150px;
+}
+#content6-p{
+    position: absolute;
+    right: 71%;
+    bottom: 80%;
+}
+.content6-p > p {
+    width: 150px;
+}
+
+#content5 > span {
+    position: absolute;
+    top: 47%;
+    right: 70%;
+}
+
+.content5-h1 > h1 {
+    width: 150px;
+}
+#content5-p{
+    position: absolute;
+    top: 20%;
+    right: 77%;
+}
+.content5-p > p {
+    width: 150px;
+}
+
+#content7 > span {
+    position: absolute;
+    right: 72%;
+    top: 47%;
+}
+
+#content7-p{
+    position: absolute;
+    top: 18%;
+    right:71%;
+}
+
+.content7-p > p {
+    width: 150px;
+}
+.content7-h1 > h1 {
+    font-size: 28px;
+    width: 150px;
+   
+}
+
+#content8 > span {
+    position: absolute;
+    right:70%;
+    top: 45%;
+}
+
+.content8-h1 > h1{
+    width: 150px;
+}
+.content8-p > p {
+    width: 150px;
+}
+#content8-p {
+    position: absolute;
+    top: 10%;
+    right: 70%;
+}
+
+
+
+
+
+#content9 > span {
+    position: absolute;
+    right: 70%;
+    top: 46%;
+}
+
+#content9-p{
+    position: absolute;
+    top: 15%;
+    right:71%;
+}
+
+.content9-p > p {
+    width: 150px;
+}
+.content9-h1 > h1 {
+    font-size: 28px;
+    width: 150px;
+   
+}
+
+
+
+#content10 > span {
+    position: absolute;
+    right: 70%;
+    top: 42%;
+}
+
+#content10-p{
+    position: absolute;
+    top: 15%;
+    right:70%;
+}
+
+.content10-p > p {
+    width: 150px;
+}
+.content10-h1 > h1 {
+    font-size: 28px;
+    width: 150px;
+   
+}
+
+
+#content11 > span {
+    position: absolute;
+    right: 70%;
+    top: 46%;
+}
+
+#content11-p{
+    position: absolute;
+    top: 14%;
+    right:70%;
+}
+
+.content11-p > p {
+    width: 150px;
+}
+.content11-h1 > h1 {
+    font-size: 28px;
+    width: 150px;
+   
+}
+
+
+#content12 > span {
+    position: absolute;
+    right: 70%;
+    top: 46%;
+}
+
+#content12-p{
+    position: absolute;
+    top: 27%;
+    right:70%;
+}
+
+.content12-p > p {
+    width: 150px;
+}
+.content12-h1 > h1 {
+    font-size: 28px;
+    width: 150px;
+   
+}
+
+
+#content14 > span {
+    position: absolute;
+    right: 70%;
+    top: 62%;
+}
+
+#content14-p{
+    position: absolute;
+    top: 38%;
+    right:69%;
+}
+
+.content14-p > p {
+    width: 150px;
+}
+.content14-h1 > h1 {
+    font-size: 28px;
+    width: 150px;
+   
+}
+
+#content13 > span {
+    position: absolute;
+    right: 70%;
+    top: 46%;
+}
+
+#content13-p{
+    position: absolute;
+    top: 26%;
+    right:69%;
+}
+
+.content13-p > p {
+    width: 150px;
+}
+.content13-h1 > h1 {
+    font-size: 28px;
+    width: 150px;
+   
+}
+
+
+/*sidebar things*/ 
+
+nav {
+/* overflow: hidden; */
+width: 250px;
+position: fixed;
+top: 0; 
+bottom: 0;
+background: rgba(0,0,0,0.1);
+border-radius: 10px; 
+box-shadow: 5px 7px 10px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li a{
+    display: flex;
+    align-items:center;
+    font-family: arial;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    padding: 5px 30px;
+    height: 50px;
+    /* background-color: yellow; */
+ ;
+}
+
+
+nav ul ul{
+    position: absolute;
+    left: 210px;
+    width: 200px;
+    top: 0;
+    display: none;
+    background: rgba(155,39,176,0.4);
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,1);
+
+}
+
+nav ul .dropdown {
+    position: relative;
+ 
+}
+
+nav ul .dropdown:hover ul{
+    display: initial;
+}
+
+/* On hover display diagonal line behind text*/
+
+.diagonal-left{
+    display:none;
+}
+
+a:hover + .diagonal-left{
+        display: inline-block;
+        position: absolute;
+        border-left: 1px solid black;
+        height: 40px;
+        left: 20%;
+        top: 25%;
+        transform: rotate(50deg);
+        
+}
+
+
+
+.logo{
+width: 5vw;
+height: 10vh;
+margin-left: 5vw;
+margin-top: 5vh;
+
+}
+
+.logo > p {
+background-color: yellow;
+
+
+}
+/**Footer**/
+
+.bottom-menu{
+position: absolute;
+bottom: 3%;
+}
+
+
+.widgets > img.iconlogo{
+    display:contents;
+    
+}
+
+.widgets > a{
+    text-decoration: none;
+}
+
+.iconlogo{
+    height: 18px;
+    padding: 10px 10px;
+
+  
+}
+
+.email h6{
+    text-align: center;
+    font-style: italic;
+}
+.email h6 a{
+    text-decoration: none;
+}
+
+footer{
+    padding-left: 15%;
+}
